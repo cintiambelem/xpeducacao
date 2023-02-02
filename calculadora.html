@@ -1,0 +1,30 @@
+<html>
+<script>
+ console.log("operacoes: soma, sub, mult, div, resto, porc")
+ 
+    //soma, sub, mult, div, resto, porc
+    function calculo(operacao, num1, num2) {
+        var resultado
+       
+
+        if (operacao === "soma") {
+            resultado = num1 + num2
+
+        } else if (operacao === "sub") {
+            resultado = num2 - num1
+
+        } else if (operacao === "mult") {
+            resultado = num1 * num2
+        } else if (operacao === "div") {
+            resultado = num1 / num2
+        } else if (operacao === "resto") {
+            resultado = num1 % num2
+        } else if (operacao === "porc") {
+            resultado = (num1 * num2) / 100;
+        }
+        return resultado
+
+    }
+</script>
+
+</html>
